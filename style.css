@@ -275,6 +275,7 @@ nav { display: none; }
 
 .portfolio__item {
     background: var(--clr-accent);
+    overflow: hidden;
 }
 
 .portfolio__img {
@@ -283,11 +284,16 @@ nav { display: none; }
         opacity 250ms linear;
 }
 
-.portfolio__img:hover {
-    transform: scale(1.2);
-    opacity: .75;
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
 }
 
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: .5;
+}
 
 
 

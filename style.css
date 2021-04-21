@@ -300,6 +300,11 @@ nav { display: none; }
     text-decoration: none;
 }
 
+.footer__link {
+    font-size: var(--fs-h3);
+    font-weight: var(--fw-bold);
+}
+
 .footer__link:hover,
 .social-list__link:hover {
     opacity: .7;
@@ -309,8 +314,13 @@ nav { display: none; }
     text-decoration: underline;
 }
 
-
-
+.social-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+    padding: 0;
+}
 
 
 

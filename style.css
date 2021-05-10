@@ -171,6 +171,13 @@ h3 { font-size: var(--fs-h3) }
     top: 1em;
     z-index: 1000;
 }
+.nav-open .nav {
+    transform: translateX(0);
+}
+
+.nav-open .nav-toggle {
+    position: fixed;
+}
 
 
 .hamburger {

@@ -162,11 +162,16 @@ h3 { font-size: var(--fs-h3) }
 }
 
 .nav-toggle {
-    padding: .25em;
+    padding: .5em;
     background: transparent;
     border: 0;
     cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
 }
+
 
 .hamburger {
     display: block;
